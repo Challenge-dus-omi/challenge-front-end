@@ -105,4 +105,6 @@ header > .container-menu > .menu > ul > li > a > p{
     font-family: "Montserrat", sans-serif;
     color: #FFF;
     text-align: center;
+    font-size: 22px;
+    font-weight: 500;
 }
