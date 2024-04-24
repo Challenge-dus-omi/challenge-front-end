@@ -144,9 +144,15 @@ header > .container-botao-ajuda > a > .botao-precisa-de-ajuda:hover{
     transform: scale(1.03);
     background-color: #fff;
     border: 1px solid #2662C8;
-  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.15);
   
   p{
     color: #2662C8;
   }
+}
+
+header > .container-botao-ajuda > a > .botao-precisa-de-ajuda > picture,
+header > .container-botao-ajuda > a > .botao-precisa-de-ajuda > picture img{
+  width: 50px;
+  height: 50px;
 }
