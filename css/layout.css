@@ -107,4 +107,6 @@ header > .container-menu > .menu > ul > li > a > p{
     text-align: center;
     font-size: 22px;
     font-weight: 500;
+    margin: 0;
+    transition: 0.2s;
 }
