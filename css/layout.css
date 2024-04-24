@@ -110,3 +110,8 @@ header > .container-menu > .menu > ul > li > a > p{
     margin: 0;
     transition: 0.2s;
 }
+
+header > .container-menu > .menu > ul > li > a > p:hover{
+    transform: scale(1.03);
+    color: #ffffffd1;
+}
