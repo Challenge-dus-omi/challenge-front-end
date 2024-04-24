@@ -41,3 +41,9 @@ header > .container-logo > a > .logo-portorepair-header > img{
     width: 250px;
     height: 39px;
 }
+
+header > .container-menu{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
