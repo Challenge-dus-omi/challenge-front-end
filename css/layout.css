@@ -115,3 +115,8 @@ header > .container-menu > .menu > ul > li > a > p:hover{
     transform: scale(1.03);
     color: #ffffffd1;
 }
+
+header > .container-botao-ajuda{
+    flex: 1;
+    display: flex;
+}
