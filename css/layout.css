@@ -14,4 +14,8 @@ body{
     justify-content: center;
     width: auto;
     height: auto;
+}
+
+a{
+    text-decoration: none;
   }
