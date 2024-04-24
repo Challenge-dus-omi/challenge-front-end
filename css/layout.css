@@ -33,6 +33,12 @@ header{
     bottom: 1px solid rgba(0, 0, 0, 0.23);
 }
 
+header > .container-logo{
+    flex: 1;
+    justify-content: left;
+    display: flex;
+  }
+
 header > .container-logo > a > .logo-portorepair-header{
     margin-left: 20px;
 }
@@ -99,6 +105,15 @@ header > .container-menu > .menu > ul > .servicos{
     align-items: center;
     height: 100%;
     column-gap: 10px;
+}
+
+header > .container-menu > .menu > ul > .servicos > hr{
+    padding: 0;
+    height: 65%;
+    margin: 0;
+    border: 0;
+    background-color: white;
+    width: 1px;
 }
 
 header > .container-menu > .menu > ul > li > a > p{
