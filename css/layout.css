@@ -119,4 +119,6 @@ header > .container-menu > .menu > ul > li > a > p:hover{
 header > .container-botao-ajuda{
     flex: 1;
     display: flex;
+    align-items: center;
+    justify-content: right;
 }
