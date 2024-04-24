@@ -98,4 +98,5 @@ header > .container-menu > .menu > ul > .servicos{
     display: flex;
     align-items: center;
     height: 100%;
+    column-gap: 10px;
 }
