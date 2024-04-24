@@ -100,3 +100,9 @@ header > .container-menu > .menu > ul > .servicos{
     height: 100%;
     column-gap: 10px;
 }
+
+header > .container-menu > .menu > ul > li > a > p{
+    font-family: "Montserrat", sans-serif;
+    color: #FFF;
+    text-align: center;
+}
