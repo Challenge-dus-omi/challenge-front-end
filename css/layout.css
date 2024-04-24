@@ -94,3 +94,8 @@ header > .container-menu > .menu > ul > .inicial > hr{
     width: 2px;
     border: 0;
 }
+header > .container-menu > .menu > ul > .servicos{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
