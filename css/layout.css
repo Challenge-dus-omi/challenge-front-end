@@ -36,3 +36,8 @@ header{
 header > .container-logo > a > .logo-portorepair-header{
     margin-left: 20px;
 }
+
+header > .container-logo > a > .logo-portorepair-header > img{
+    width: 250px;
+    height: 39px;
+}
