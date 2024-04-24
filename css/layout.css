@@ -71,4 +71,9 @@ header > .container-menu > .menu > ul > .inicial{
     align-items: center;
     height: 100%;
     column-gap: 5px;
-  }
+}
+
+header > .container-menu > .menu > ul > .inicial > a{
+    display: flex;
+    align-items: center;
+}
