@@ -7,3 +7,9 @@
 body{
     margin: 0;
   }
+
+  picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
