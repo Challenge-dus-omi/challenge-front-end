@@ -82,3 +82,7 @@ header > .container-menu > .menu > ul > .inicial > a > img{
     width: 32.887px;
     transition: 0.2s;
 }
+
+header > .container-menu > .menu > ul > .inicial > a > img:hover{
+    transform: scale(1.05);
+}
