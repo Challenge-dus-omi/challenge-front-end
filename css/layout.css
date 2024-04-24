@@ -131,3 +131,8 @@ header > .container-botao-ajuda > a > .botao-precisa-de-ajuda{
     text-decoration: none;
     margin-right: 10px;
 }
+
+header > .container-botao-ajuda > a > .botao-precisa-de-ajuda{
+    border-radius: 5px;
+    background: #2662C8;
+}
