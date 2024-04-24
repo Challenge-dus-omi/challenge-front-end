@@ -165,3 +165,7 @@ header > .container-botao-ajuda > a > .botao-precisa-de-ajuda > p{
     font-weight: 400;
     line-height: normal;
 }
+/* ---------- Footer */
+footer{
+    margin-top: 60px
+  }
