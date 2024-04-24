@@ -139,3 +139,8 @@ header > .container-botao-ajuda > a > .botao-precisa-de-ajuda{
     justify-content: space-around;
     transition: 0.2s;
 }
+
+header > .container-botao-ajuda > a > .botao-precisa-de-ajuda:hover{
+    transform: scale(1.03);
+    background-color: #fff;
+}
