@@ -46,4 +46,9 @@ header > .container-menu{
     flex: 1;
     display: flex;
     justify-content: center;
-  }
+}
+
+header > .container-menu > .menu{
+    border-radius: 10px;
+    background-color: #0046BF;
+}
