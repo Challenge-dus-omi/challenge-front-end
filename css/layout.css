@@ -126,4 +126,6 @@ header > .container-botao-ajuda{
 header > .container-botao-ajuda > a,
 header > .container-botao-ajuda > a > .botao-precisa-de-ajuda{
     display: flex;
+    width: 231px;
+    height: 60px;
 }
