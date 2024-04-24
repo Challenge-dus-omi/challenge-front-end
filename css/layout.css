@@ -51,4 +51,7 @@ header > .container-menu{
 header > .container-menu > .menu{
     border-radius: 10px;
     background-color: #0046BF;
+    display: flex;
+    width: 280px;
+    height: 50px;
 }
