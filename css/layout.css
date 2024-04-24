@@ -77,3 +77,8 @@ header > .container-menu > .menu > ul > .inicial > a{
     display: flex;
     align-items: center;
 }
+
+header > .container-menu > .menu > ul > .inicial > a > img{
+    width: 32.887px;
+    transition: 0.2s;
+}
