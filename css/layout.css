@@ -122,3 +122,8 @@ header > .container-botao-ajuda{
     align-items: center;
     justify-content: right;
 }
+
+header > .container-botao-ajuda > a,
+header > .container-botao-ajuda > a > .botao-precisa-de-ajuda{
+    display: flex;
+}
