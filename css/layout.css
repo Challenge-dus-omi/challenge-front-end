@@ -135,4 +135,7 @@ header > .container-botao-ajuda > a > .botao-precisa-de-ajuda{
 header > .container-botao-ajuda > a > .botao-precisa-de-ajuda{
     border-radius: 5px;
     background: #2662C8;
+    align-items: center;
+    justify-content: space-around;
+    transition: 0.2s;
 }
