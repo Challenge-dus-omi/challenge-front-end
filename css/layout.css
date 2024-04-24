@@ -168,4 +168,41 @@ header > .container-botao-ajuda > a > .botao-precisa-de-ajuda > p{
 /* ---------- Footer */
 footer{
     margin-top: 60px
+}
+
+footer > nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #F5F5F5;
+    padding: 20px 0 20px 0;
+  }
+  
+  footer > nav > ul{
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+  }
+  
+  #footer-porto,
+  #footer-portorepair,
+  #footer-portorepairia{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+  
+  #footer-porto > a > picture > img{
+    width: 129px;
+    height: 30.61px;
+  }
+  #footer-portorepair > a > picture > img{
+    width: 164.348px;
+  }
+  
+  #footer-portorepairia > a > picture > img{
+    width: 164px;
   }
