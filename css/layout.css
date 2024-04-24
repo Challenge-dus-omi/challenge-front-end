@@ -91,4 +91,6 @@ header > .container-menu > .menu > ul > .inicial > hr{
     height: 100%;
     margin: 0;
     background-color: white;
+    width: 2px;
+    border: 0;
 }
