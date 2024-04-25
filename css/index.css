@@ -8,3 +8,9 @@ main > .container-banner{
     align-items: center; 
     column-gap: 20px;
 }
+main > .container-banner > .textos{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
