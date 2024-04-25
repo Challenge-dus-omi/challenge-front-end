@@ -3,4 +3,5 @@ main > .banner {
   justify-content: space-around;
   padding: 80px 0;
   width: 100%;
+  background-color: #f5f5f5;
 }
