@@ -39,4 +39,8 @@ main > .container-banner{
     main > .container-banner > .banner > nav{
         margin-left: 5%;
     }
+    main > .container-banner > .banner > nav > ul{
+        display: flex;
+        flex-direction: column;
+    }
 }
