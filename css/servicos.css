@@ -103,4 +103,9 @@ main > #perguntas > h2{
     color: #00A1FC;
     font-family: "Inter", sans-serif;
     font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 1.2px;
+    width: 80%;
 }
