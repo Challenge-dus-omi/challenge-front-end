@@ -37,3 +37,8 @@ main > .banner > picture > img {
   width: 345px;
   height: 322px;
 }
+
+main > .banner > .textos > nav > ul {
+  display: flex;
+  row-gap: 40px;
+}
