@@ -73,12 +73,13 @@ main > .container-banner > .carro{
     width: 100%;
     display: flex;
     justify-content: right;
-}
-main > .container-banner > .carro > picture > img{
-    width: 520px;
-    height: 432px;
-    margin-top: -320px;
-    z-index: 1;
+
+    picture > img{
+        width: 520px;
+        height: 432px;
+        margin-top: -320px;
+        z-index: 1;
+    }
 }
 #chatbot{
     margin-top: -80px;
