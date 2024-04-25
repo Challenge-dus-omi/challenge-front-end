@@ -136,3 +136,9 @@ main > #perguntas > a > p{
     background-color: #2662C8;    
     transition: all 0.3s;
 }
+main > #perguntas > a > p:hover{
+    background-color: #fff;
+    color: #2662C8;
+    border: 1px solid #2662C8;
+    transform: scale(1.03);
+}
