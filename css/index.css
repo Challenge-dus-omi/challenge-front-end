@@ -139,3 +139,24 @@ main > .container-redes{
 
     }
 }
+main > .container-redes > .parte-cima{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+    img{
+       width: 164px;
+       height: 29.652px; 
+    }
+    h3{
+        color: #FFF;
+        font-family: "Montserrat Alternates", sans-serif;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    h3 > span{
+        font-weight: 500;
+    }
+}
