@@ -51,6 +51,13 @@ main > .container-banner{
         border-radius: 20px;
         background-color: #2662C8; 
     }
+    li > a:hover{
+        background-color: #fff;
+        border: 1px solid #2662C8;
+        p{
+            color:#2662C8;
+        }
+    }
     li > a > p{
         color: #FFF;
         font-family: "Montserrat", sans-serif;
