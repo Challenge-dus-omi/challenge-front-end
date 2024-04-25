@@ -48,4 +48,10 @@ main > .banner > .textos > nav > ul {
 main > .banner > .textos > nav > ul > li {
   display: flex;
   align-items: center;
+  a{
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
 }
