@@ -17,5 +17,7 @@ main > .banner {
     font-family: "Montserrat", sans-serif;
     font-size: 45px;
     font-style: normal;
+    font-weight: 400;
+    line-height: normal;
   }
 }
