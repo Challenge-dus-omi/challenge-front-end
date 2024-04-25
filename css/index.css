@@ -23,3 +23,17 @@ main > .container-banner > .textos > h1{
     line-height: normal;
     margin: 0;
 }
+main > .container-banner > .textos > p{
+    color: #000;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+    text-align: left;
+    span{
+        color: #2662C8; 
+    }
+}
