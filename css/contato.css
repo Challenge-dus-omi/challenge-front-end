@@ -46,4 +46,6 @@ main > .banner > .textos > nav > ul {
   align-items: center;
 }
 main > .banner > .textos > nav > ul > li {
+  display: flex;
+  align-items: center;
 }
