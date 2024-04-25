@@ -42,5 +42,7 @@ main > .container-banner{
     main > .container-banner > .banner > nav > ul{
         display: flex;
         flex-direction: column;
+        row-gap: 30px;
+
     }
 }
