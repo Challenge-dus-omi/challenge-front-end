@@ -55,6 +55,11 @@ main > .container-banner{
         color: #FFF;
         font-family: "Montserrat", sans-serif;
         font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding: 10px;
+        transition: all 0.2s;
     }
 
 }
