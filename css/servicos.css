@@ -68,5 +68,9 @@ main > .container-banner > .banner > nav > ul{
         padding: 10px;
         transition: all 0.2s;
     }
-
+}
+main > .container-banner > .carro{
+    width: 100%;
+    display: flex;
+    justify-content: right;
 }
