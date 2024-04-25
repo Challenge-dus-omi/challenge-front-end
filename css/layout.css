@@ -25,6 +25,16 @@ p, h1, h2, h3, h4, h5, h6{
     padding: 0;
 }
 
+main{
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 60px;
+  }
+
 header{
     display: flex;
     align-items: center;
