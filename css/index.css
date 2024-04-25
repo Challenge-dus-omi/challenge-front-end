@@ -124,3 +124,18 @@ main > .container-servicos > .card{
     background-color: #F7F7F7;
     padding: 20px 0;
 }
+main > .container-redes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 60px;
+    background-color: #0046BF;
+    width: 80%;
+    border-radius: 50px;
+
+    picture > img{
+        width: 544px;
+        height: 214px;
+
+    }
+}
