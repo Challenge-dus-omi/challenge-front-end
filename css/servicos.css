@@ -29,5 +29,8 @@ main > .container-banner{
         color: #000;
         font-family: "Montserrat", sans-serif;
         font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
     }
 }
