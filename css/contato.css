@@ -45,3 +45,5 @@ main > .banner > .textos > nav > ul {
   list-style: none;
   align-items: center;
 }
+main > .banner > .textos > nav > ul > li {
+}
