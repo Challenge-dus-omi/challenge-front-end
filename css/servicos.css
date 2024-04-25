@@ -33,4 +33,7 @@ main > .container-banner{
         font-weight: 500;
         line-height: normal;
     }
+    .textos > p > span{
+        color: #2662C8;
+    }
 }
