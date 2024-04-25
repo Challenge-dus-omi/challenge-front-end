@@ -37,3 +37,7 @@ main > .container-banner > .textos > p{
         color: #2662C8; 
     }
 }
+main > .container-banner > picture > img{
+    width: 480px;
+    height: auto;
+}
