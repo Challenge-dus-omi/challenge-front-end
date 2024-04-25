@@ -99,3 +99,8 @@ main > #perguntas{
     align-items: center;
     row-gap: 20px;
 }
+main > #perguntas > h2{
+    color: #00A1FC;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+}
