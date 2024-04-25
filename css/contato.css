@@ -20,11 +20,15 @@ main > .banner {
     font-weight: 400;
     line-height: normal;
   }
-  p{
+  p {
     color: #000;
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+  }
+  p > span {
+    color: #0046bf;
+  }
 }
