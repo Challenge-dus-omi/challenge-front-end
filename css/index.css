@@ -120,3 +120,7 @@ main > .container-servicos > .card{
         color: #2662C8;
     }
 }
+#agendamento{
+    background-color: #F7F7F7;
+    padding: 20px 0;
+}
