@@ -1,4 +1,6 @@
 main > .banner {
   display: flex;
   justify-content: space-around;
+  padding: 80px 0;
+  width: 100%;
 }
