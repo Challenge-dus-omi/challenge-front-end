@@ -90,3 +90,8 @@ main > .container-banner > .carro > picture > img{
         font-family: "Montserrat", sans-serif;
     }
 }
+main > #perguntas{
+    background-color: #F7F7F7;
+    padding: 20px 0;
+    width: 100%;
+}
