@@ -20,4 +20,8 @@ main > .banner {
     font-weight: 400;
     line-height: normal;
   }
+  p{
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+
 }
