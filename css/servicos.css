@@ -80,3 +80,10 @@ main > .container-banner > .carro > picture > img{
     margin-top: -320px;
     z-index: 1;
 }
+#chatbot{
+    margin-top: -80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
