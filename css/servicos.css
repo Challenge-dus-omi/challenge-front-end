@@ -43,6 +43,6 @@ main > .container-banner{
         display: flex;
         flex-direction: column;
         row-gap: 30px;
-
+        list-style-type: none;
     }
 }
