@@ -36,4 +36,7 @@ main > .container-banner{
     .textos > p > span{
         color: #2662C8;
     }
+    main > .container-banner > .banner > nav{
+        margin-left: 5%;
+    }
 }
