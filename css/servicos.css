@@ -9,4 +9,9 @@ main > .container-banner{
     padding: 30px 0;
     background-color: #EFF4EF;
     row-gap: 40px;
+
+    .textos{
+        display: flex;
+        flex-direction: column;
+    }
 }
