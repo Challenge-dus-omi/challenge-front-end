@@ -160,3 +160,11 @@ main > .container-redes > .parte-cima{
         font-weight: 500;
     }
 }
+main > .container-redes > h2{
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
