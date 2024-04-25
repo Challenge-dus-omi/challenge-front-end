@@ -13,5 +13,7 @@ main > .container-banner{
     .textos{
         display: flex;
         flex-direction: column;
+        width: 70%;
+        margin-left: 5%;
     }
 }
