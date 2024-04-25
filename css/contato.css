@@ -60,4 +60,10 @@ main > .banner > .textos > nav > ul > li {
     border-radius: 10px;
     transition: all 0.3s;
   }
+  a:hover {
+    background-color: #fff;
+    border: 1px solid #0046bf;
+    color: #0046bf;
+    transform: scale(1.03);
+  }
 }
