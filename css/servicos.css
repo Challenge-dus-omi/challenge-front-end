@@ -86,4 +86,7 @@ main > .container-banner > .carro > picture > img{
     flex-direction: column;
     align-items: center;
     row-gap: 10px;
+    figcaption{
+        font-family: "Montserrat", sans-serif;
+    }
 }
