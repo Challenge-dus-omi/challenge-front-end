@@ -113,3 +113,8 @@ main > #perguntas > h2{
 #tab{
     margin-left: 60px;
 }
+main > #perguntas > p{
+    width: 80%;
+    color: #000;
+    font-family: "Questrial", sans-serif;
+}
