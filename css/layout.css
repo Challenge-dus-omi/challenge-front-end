@@ -68,7 +68,7 @@ header > .container-menu > .menu{
     border-radius: 10px;
     background-color: #0046BF;
     display: flex;
-    width: 280px;
+    width: 380px;
     height: 50px;
 }
 header > .container-menu > .menu > ul{
@@ -110,14 +110,14 @@ header > .container-menu > .menu > ul > .inicial > hr{
     width: 2px;
     border: 0;
 }
-header > .container-menu > .menu > ul > .servicos{
+header > .container-menu > .menu > ul > .linha{
     display: flex;
     align-items: center;
     height: 100%;
     column-gap: 10px;
 }
 
-header > .container-menu > .menu > ul > .servicos > hr{
+header > .container-menu > .menu > ul > .linha > hr{
     padding: 0;
     height: 65%;
     margin: 0;
@@ -151,7 +151,7 @@ header > .container-botao-ajuda{
 header > .container-botao-ajuda > a,
 header > .container-botao-ajuda > a > .botao-precisa-de-ajuda{
     display: flex;
-    width: 250px;
+    width: 260px;
     height: 60px;
     text-decoration: none;
     margin-right: 10px;
