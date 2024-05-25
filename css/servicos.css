@@ -259,3 +259,72 @@ main > .container-form-login > form > fieldset > div > input{
         width: 90%;
     }
 }
+
+@media (max-width: 575px) {
+    main > .container-banner > .carro{
+        display: none;
+    }
+    
+    main > .container-banner > .banner > .textos{
+        width: 90%;
+        align-items: center;
+    }
+
+    main > .container-banner > .banner > nav{
+        margin-left: 0;
+    }
+
+    main > .container-banner > .banner > nav > ul{
+        align-items: center;
+        padding: 0;
+        width: 100%;
+    }
+
+    main > .container-banner > .banner > nav > ul > li{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+    }
+
+    main > .container-banner > .banner > nav > ul > li > a{
+        width: 95%;
+        border-radius: 5px;
+        justify-content: center;
+    }
+
+    main  > .container-form-login > form{
+        width: 100%;
+        border-radius: 0;
+    }
+
+    main  > .container-form-login > form > fieldset{
+        width: 100%;
+        padding: 0;
+    }
+
+    main  > .container-form-login > form > fieldset > div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    main  > .container-form-login > form > fieldset > div > input{
+        width: 95%;
+        border-radius: 10px;
+    }
+
+    #perguntas > h2{
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #tab{
+        margin-left: 0;
+    }
+
+    #perguntas  > p{
+        width: 90%;
+    }
+}
