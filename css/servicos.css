@@ -328,4 +328,664 @@ main > .container-form-login > form > fieldset > div > input{
     #perguntas  > p{
         width: 90%;
     }
+}main > .container-banner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+    background-color: #EFF4EF;
+    row-gap: 40px;
+
+    .textos{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        row-gap: 20px;
+        margin-left: 5%;
+    }
+    .textos > h1{
+        color: #000;
+        font-family: "Montserrat", sans-serif;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .textos > p{
+        color: #000;
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .textos > p > span{
+        color: #2662C8;
+    }
+    main > .container-banner > .banner > nav{
+        margin-left: 5%;
+    }
+}
+main > .container-banner > .banner > nav > ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    list-style-type: none;
+
+    li > a{
+        display: flex;  
+        width: 425px;
+        border-radius: 20px;
+        background-color: #2662C8; 
+    }
+    li > a:hover{
+        background-color: #fff;
+        border: 1px solid #2662C8;
+        p{
+            color:#2662C8;
+        }
+    }
+    li > a > p{
+        color: #FFF;
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding: 10px;
+        transition: all 0.2s;
+    }
+}
+main > .container-banner > .carro{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+
+    picture > img{
+        width: 520px;
+        height: 432px;
+        margin-top: -320px;
+        z-index: 1;
+    }
+}
+
+main > .container-form-login{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    form{
+        width: 625px;
+        height: 426px;
+        background-color: #0046BF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    form > fieldset{
+        border: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 40px;
+    }
+
+    form > fieldset > legend{
+        color: #FFF;
+        font-family: "Montserrat", sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+main > .container-form-login > form > fieldset > div > input{
+    width: 400px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    border: none;
+    color: #2662C8;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#enviar > input{
+    width: 200px !important;
+    color: #2662C8;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+#enviar > input:hover{
+    background-color: #2662C8;
+    color: #FFF;
+}
+
+#perguntas{
+    background-color: #F7F7F7;
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+#perguntas > h2{
+    color: #00A1FC;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 1.2px;
+    width: 80%;
+}
+#tab{
+    margin-left: 60px;
+}
+#perguntas > p{
+    width: 80%;
+    color: #000;
+    font-family: "Questrial", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/* @media (min-width: 1200px) and (max-width: 1399px) {
+
+} */
+
+/* @media (min-width: 992px) and (max-width: 1199px) {
+
+} */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    main > .container-banner > .carro{
+        display: none;
+    }
+    
+    main > .container-banner > .banner > .textos{
+        width: 90%;
+        align-items: center;
+    }
+
+    main > .container-banner > .banner > nav{
+        margin-left: 0;
+    }
+
+    main > .container-banner > .banner > nav > ul{
+        align-items: center;
+        padding: 0;
+        width: 100%;
+    }
+
+    #perguntas > h2{
+        width: 100%;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    #tab{
+        margin-left: 0;
+    }
+
+    #perguntas  > p{
+        width: 90%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    main > .container-banner > .carro{
+        display: none;
+    }
+    
+    main > .container-banner > .banner > .textos{
+        width: 90%;
+        align-items: center;
+    }
+
+    main > .container-banner > .banner > nav{
+        margin-left: 0;
+    }
+
+    main > .container-banner > .banner > nav > ul{
+        align-items: center;
+        padding: 0;
+        width: 100%;
+    }
+
+    #perguntas > h2{
+        width: 100%;
+        font-size: 27px;
+        text-align: left;
+        }
+
+    #tab{
+        margin-left: 0;
+    }
+
+    #perguntas  > p{
+        width: 90%;
+    }
+}
+
+@media (max-width: 575px) {
+    main > .container-banner > .carro{
+        display: none;
+    }
+    
+    main > .container-banner > .banner > .textos{
+        width: 90%;
+        align-items: center;
+    }
+
+    main > .container-banner > .banner > nav{
+        margin-left: 0;
+    }
+
+    main > .container-banner > .banner > nav > ul{
+        align-items: center;
+        padding: 0;
+        width: 100%;
+    }
+
+    main > .container-banner > .banner > nav > ul > li{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+    }
+
+    main > .container-banner > .banner > nav > ul > li > a{
+        width: 95%;
+        border-radius: 5px;
+        justify-content: center;
+    }
+
+    main  > .container-form-login > form{
+        width: 100%;
+        border-radius: 0;
+    }
+
+    main  > .container-form-login > form > fieldset{
+        width: 100%;
+        padding: 0;
+    }
+
+    main  > .container-form-login > form > fieldset > div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    main  > .container-form-login > form > fieldset > div > input{
+        width: 95%;
+        border-radius: 10px;
+    }
+
+    #perguntas > h2{
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #tab{
+        margin-left: 0;
+    }
+
+    #perguntas  > p{
+        width: 90%;
+    }
+}main > .container-banner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+    background-color: #EFF4EF;
+    row-gap: 40px;
+
+    .textos{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        row-gap: 20px;
+        margin-left: 5%;
+    }
+    .textos > h1{
+        color: #000;
+        font-family: "Montserrat", sans-serif;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .textos > p{
+        color: #000;
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .textos > p > span{
+        color: #2662C8;
+    }
+    main > .container-banner > .banner > nav{
+        margin-left: 5%;
+    }
+}
+main > .container-banner > .banner > nav > ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    list-style-type: none;
+
+    li > a{
+        display: flex;  
+        width: 425px;
+        border-radius: 20px;
+        background-color: #2662C8; 
+    }
+    li > a:hover{
+        background-color: #fff;
+        border: 1px solid #2662C8;
+        p{
+            color:#2662C8;
+        }
+    }
+    li > a > p{
+        color: #FFF;
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding: 10px;
+        transition: all 0.2s;
+    }
+}
+main > .container-banner > .carro{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+
+    picture > img{
+        width: 520px;
+        height: 432px;
+        margin-top: -320px;
+        z-index: 1;
+    }
+}
+
+main > .container-form-login{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    form{
+        width: 625px;
+        height: 426px;
+        background-color: #0046BF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    form > fieldset{
+        border: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 40px;
+    }
+
+    form > fieldset > legend{
+        color: #FFF;
+        font-family: "Montserrat", sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+main > .container-form-login > form > fieldset > div > input{
+    width: 400px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    border: none;
+    color: #2662C8;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#enviar > input{
+    width: 200px !important;
+    color: #2662C8;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+#enviar > input:hover{
+    background-color: #2662C8;
+    color: #FFF;
+}
+
+#perguntas{
+    background-color: #F7F7F7;
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+#perguntas > h2{
+    color: #00A1FC;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 1.2px;
+    width: 80%;
+}
+#tab{
+    margin-left: 60px;
+}
+#perguntas > p{
+    width: 80%;
+    color: #000;
+    font-family: "Questrial", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/* @media (min-width: 1200px) and (max-width: 1399px) {
+
+} */
+
+/* @media (min-width: 992px) and (max-width: 1199px) {
+
+} */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    main > .container-banner > .carro{
+        display: none;
+    }
+    
+    main > .container-banner > .banner > .textos{
+        width: 90%;
+        align-items: center;
+    }
+
+    main > .container-banner > .banner > nav{
+        margin-left: 0;
+    }
+
+    main > .container-banner > .banner > nav > ul{
+        align-items: center;
+        padding: 0;
+        width: 100%;
+    }
+
+    #perguntas > h2{
+        width: 100%;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    #tab{
+        margin-left: 0;
+    }
+
+    #perguntas  > p{
+        width: 90%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    main > .container-banner > .carro{
+        display: none;
+    }
+    
+    main > .container-banner > .banner > .textos{
+        width: 90%;
+        align-items: center;
+    }
+
+    main > .container-banner > .banner > nav{
+        margin-left: 0;
+    }
+
+    main > .container-banner > .banner > nav > ul{
+        align-items: center;
+        padding: 0;
+        width: 100%;
+    }
+
+    #perguntas > h2{
+        width: 100%;
+        font-size: 27px;
+        text-align: left;
+        }
+
+    #tab{
+        margin-left: 0;
+    }
+
+    #perguntas  > p{
+        width: 90%;
+    }
+}
+
+@media (max-width: 575px) {
+    main > .container-banner > .carro{
+        display: none;
+    }
+    
+    main > .container-banner > .banner > .textos{
+        width: 90%;
+        align-items: center;
+    }
+
+    main > .container-banner > .banner > nav{
+        margin-left: 0;
+    }
+
+    main > .container-banner > .banner > nav > ul{
+        align-items: center;
+        padding: 0;
+        width: 100%;
+    }
+
+    main > .container-banner > .banner > nav > ul > li{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+    }
+
+    main > .container-banner > .banner > nav > ul > li > a{
+        width: 95%;
+        border-radius: 5px;
+        justify-content: center;
+    }
+
+    main  > .container-form-login > form{
+        width: 100%;
+        border-radius: 0;
+    }
+
+    main  > .container-form-login > form > fieldset{
+        width: 100%;
+        padding: 0;
+    }
+
+    main  > .container-form-login > form > fieldset > div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    main  > .container-form-login > form > fieldset > div > input{
+        width: 95%;
+        border-radius: 10px;
+    }
+
+    #perguntas > h2{
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #tab{
+        margin-left: 0;
+    }
+
+    #perguntas  > p{
+        width: 90%;
+    }
 }
