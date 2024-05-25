@@ -12,3 +12,12 @@ main > picture > img{
     width: 400px;
     height: 239px;
 }
+
+@media (max-width: 767px) {
+
+    main > picture > img{
+        width: 100%;
+        height: auto;
+    }
+
+}
