@@ -67,3 +67,64 @@ main > .banner > .textos > nav > ul > li {
     transform: scale(1.03);
   }
 }
+
+/* @media (min-width: 1200px) and (max-width: 1399px) {
+
+} */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  main > .banner > picture{
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  main > .banner > picture{
+    display: none;
+  }
+  .textos{
+
+    h1{
+      font-size: 40px;
+    }
+  }
+
+  main > .banner > .textos > nav > ul{
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  main > .banner > picture{
+    display: none;
+  }
+  .textos{
+
+    h1{
+      font-size: 35px;
+    }
+  }
+
+  main > .banner > .textos > nav > ul{
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  main > .banner > picture{
+    display: none;
+  }
+  .textos{
+
+    h1{
+      font-size: 35px;
+    }
+    p{
+      text-align: center;
+    }
+  }
+
+  main > .banner > .textos > nav > ul{
+    padding-left: 0;
+  }
+}
