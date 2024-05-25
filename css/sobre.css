@@ -33,7 +33,7 @@ main > .container > .card{
         font-weight: 500;
         line-height: normal;
     }
-    #redes-sociais > ul{
+    .redes-sociais > ul{
         list-style-type: none;
         display: flex;
         padding: 0;
@@ -41,10 +41,28 @@ main > .container > .card{
         justify-content: center;
         column-gap: 40px;
     }
-    #redes-sociais > ul > li{
+    .redes-sociais > ul > li{
         transition: 0.3s;
     }
 }
-#redes-sociais > ul > li:hover{
+.redes-sociais > ul > li:hover{
     transform: scale(1.05);
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    main > .container > .card{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    main > .container > .card{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    main > .container > .card > .lado-direito{
+        width: 95%;
+    }
+
 }
