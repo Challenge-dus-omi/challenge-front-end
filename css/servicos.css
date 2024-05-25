@@ -259,3 +259,37 @@ main > .container-form-login > form > fieldset > div > input{
         width: 90%;
     }
 }
+@media (min-width: 576px) and (max-width: 767px) {
+    main > .container-banner > .carro{
+        display: none;
+    }
+    
+    main > .container-banner > .banner > .textos{
+        width: 90%;
+        align-items: center;
+    }
+
+    main > .container-banner > .banner > nav{
+        margin-left: 0;
+    }
+
+    main > .container-banner > .banner > nav > ul{
+        align-items: center;
+        padding: 0;
+        width: 100%;
+    }
+
+    #perguntas > h2{
+        width: 100%;
+        font-size: 27px;
+        text-align: left;
+        }
+
+    #tab{
+        margin-left: 0;
+    }
+
+    #perguntas  > p{
+        width: 90%;
+    }
+}
