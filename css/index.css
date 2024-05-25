@@ -96,7 +96,7 @@ main > .container-servicos > .card{
         display: flex;
         justify-content: center;
     }
-    #botao-servicos{
+    .botao-servicos{
         background-color: #2662C8;
         color: #FFF;
         text-align: center;
@@ -112,7 +112,7 @@ main > .container-servicos > .card{
         margin: 0;
         transition: all 0.4s;
     }
-    #botao-servicos:hover{
+    .botao-servicos:hover{
         transform: scale(1.03);
         background-color: #fff;
         border: 1px solid #2662C8;
@@ -199,5 +199,256 @@ main > .container-redes > nav > ul{
         font-style: normal;
         font-weight: 600;
         line-height: normal;
-    } 
+    }
+}
+
+main > .container-redes > picture > img{
+    border-radius: 50px;
+}
+
+/* @media (min-width: 1200px) and (max-width: 1399px) {
+
+} */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    main > .container-banner > .textos{
+        padding-left: 20px;
+    }
+
+    main > .container-banner > .textos > h1{
+        font-size: 40px;
+    }
+
+    main > .container-servicos{
+        width: 95%;
+    }
+    main > .container-servicos > .card{
+        column-gap: 10;
+
+        .lado-direito > h3{
+            font-size: 33px;
+        }
+        .lado-direito > p{
+            font-size: 22px;
+        }
+        .lado-direito > a{
+            width: 60%;
+        }
+        .botao-servicos{
+            font-size: 27px;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    main > .container-banner{
+        flex-direction: column-reverse;
+        column-gap: 0;
+        row-gap: 20px;
+        padding: 50px 0 50px 0;
+    }
+    main > .container-banner > .textos{
+        width: 80%;
+    }
+
+    main > .container-banner > .textos > h1{
+        font-size: 40px;
+    }
+
+    main > .container-servicos{
+        width: 95%;
+    }
+
+    main > .container-servicos > .card{
+        column-gap: 10;
+        flex-direction: column;
+        column-gap: 0;
+        align-items: center;
+        row-gap: 20px;
+
+        .lado-direito{
+            row-gap: 30px;
+        }
+        .lado-direito > h3{
+            font-size: 33px;
+        }
+        .lado-direito > p{
+            font-size: 22px;
+        }
+        .lado-direito > a{
+            width: 80%;
+        }
+        .botao-servicos{
+            font-size: 27px;
+        }
+    }
+
+    main > .container-redes{
+        width: 95%;
+    }
+
+    main > .container-redes > .parte-cima{
+        justify-content: center;
+    }
+
+    main > .container-redes > .parte-cima > img{
+        display: none;
+    }
+
+    main > .container-redes > nav > ul{
+        padding: 0;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    main > .container-banner{
+        flex-direction: column-reverse;
+        column-gap: 0;
+        row-gap: 20px;
+        padding: 50px 0 50px 0;
+    }
+    main > .container-banner > .textos{
+        width: 80%;
+    }
+
+    main > .container-banner > .textos > h1{
+        font-size: 40px;
+    }
+
+    main > .container-servicos{
+        width: 95%;
+    }
+
+    main > .container-servicos > .card{
+        column-gap: 10;
+        flex-direction: column;
+        column-gap: 0;
+        align-items: center;
+        row-gap: 20px;
+
+        .lado-direito{
+            row-gap: 30px;
+        }
+        .lado-direito > h3{
+            font-size: 33px;
+        }
+        .lado-direito > p{
+            font-size: 22px;
+        }
+        .lado-direito > a{
+            width: 100%;
+        }
+        .botao-servicos{
+            font-size: 27px;
+        }
+    }
+
+    main > .container-redes{
+        width: 95%;
+    }
+
+    main > .container-redes > .parte-cima{
+        justify-content: center;
+    }
+
+    main > .container-redes > .parte-cima > img{
+        display: none;
+    }
+
+    main > .container-redes > nav > ul{
+        padding: 0;
+        column-gap: 0;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+}
+
+@media (max-width: 575px){
+
+    main > .container-banner{
+        flex-direction: column-reverse;
+        column-gap: 0;
+        row-gap: 20px;
+        padding: 50px 0 50px 0;
+    }
+
+    main > .container-banner > picture > img{
+        width: 95%;
+    }
+
+    main > .container-banner > .textos{
+        width: 80%;
+    }
+
+    main > .container-banner > .textos > h1{
+        font-size: 30px;
+    }
+
+    main > h2{
+        font-size: 35px;
+    }
+
+    main > .container-servicos > .card > picture > img{
+        width: 95%;
+    }
+
+    main > .container-servicos{
+        width: 95%;
+    }
+
+    main > .container-servicos > .card{
+        column-gap: 10;
+        flex-direction: column;
+        column-gap: 0;
+        align-items: center;
+        row-gap: 20px;
+
+        .lado-direito{
+            row-gap: 30px;
+            width: 95%;
+        }
+        .lado-direito > h3{
+            font-size: 30px;
+        }
+        .lado-direito > p{
+            font-size: 20px;
+        }
+        .lado-direito > a{
+            width: 100%;
+        }
+        .botao-servicos{
+            font-size: 25px;
+        }
+    }
+
+    main > .container-redes{
+        width: 95%;
+        border-radius: 25px;
+        padding-top: 20px;
+    }
+
+    main > .container-redes > .parte-cima{
+        justify-content: center;
+    }
+
+    main > .container-redes > h2{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    main > .container-redes > .parte-cima > img{
+        display: none;
+    }
+
+    main > .container-redes > nav > ul{
+        padding: 0;
+        column-gap: 0;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    main > .container-redes > picture > img{
+        display: none;
+    }
 }
