@@ -1,7 +1,9 @@
+import Options from '../../components/Contato/Options';
+
 export default function Contato(){
     return (
         <main>
-            <h1>Contato</h1>
+            <Options />
         </main>
     )
 }
