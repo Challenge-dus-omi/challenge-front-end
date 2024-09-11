@@ -1,9 +1,9 @@
-import logoPortoRepairBranco from '../assets/images/logo-portorepair-branco.png';
-import logoPortoRepairIA from '../assets/images/logo-portorepairia-branco.png';
-import iconeWhatsApp from '../assets/images/icone-whatsapp.png';
-import iconeInstagram from '../assets/images/icone-instagram.png';
-import iconeTwitter from '../assets/images/icone-twitter.png';
-import carroRedes from '../assets/images/carro-redes.png';
+import logoPortoRepairBranco from '../../assets/logo-portorepair-branco.png';
+import logoPortoRepairIA from '../../assets/logo-portorepairia-branco.png';
+import iconeWhatsApp from '../../assets/icone-whatsapp.png';
+import iconeInstagram from '../../assets/icone-instagram.png';
+import iconeTwitter from '../../assets/icone-twitter.png';
+import carroRedes from '../../assets/carro-redes.png';
 
 const RedesSociais = () => {
   return (
