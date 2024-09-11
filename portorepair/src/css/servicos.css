@@ -84,6 +84,74 @@
     }
 }
 
+.container-form-login{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    form{
+        width: 625px;
+        height: 426px;
+        background-color: #0046BF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    form > fieldset{
+        border: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 40px;
+    }
+
+    form > fieldset > legend{
+        color: #FFF;
+        font-family: "Montserrat", sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+.container-form-login > form > fieldset > div > input{
+    width: 400px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    border: none;
+    color: #2662C8;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#enviar > input{
+    width: 200px !important;
+    color: #2662C8;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+#enviar > input:hover{
+    background-color: #2662C8;
+    color: #FFF;
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
     .container-banner-servicos > .carro{
         display: none;
@@ -158,6 +226,27 @@
         width: 95%;
         border-radius: 5px;
         justify-content: center;
+    }
+
+    .container-form-login > form{
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .container-form-login > form > fieldset{
+        width: 100%;
+        padding: 0;
+    }
+
+    .container-form-login > form > fieldset > div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-form-login > form > fieldset > div > input{
+        width: 95%;
+        border-radius: 10px;
     }
 
 }
