@@ -119,6 +119,88 @@
     }
 }
 
+.container-redes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 60px;
+    background-color: #0046BF;
+    width: 80%;
+    border-radius: 50px;
+
+    picture > img{
+        width: 544px;
+        height: auto;
+
+    }
+}
+.container-redes > .parte-cima{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+    img{
+       width: 164px;
+       height: 29.652px; 
+    }
+    h3{
+        color: #FFF;
+        font-family: "Montserrat Alternates", sans-serif;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    h3 > span{
+        font-weight: 500;
+    }
+}
+.container-redes > h2{
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.container-redes > nav > ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    column-gap: 20px;
+
+    li > a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 15px;
+        border-radius: 50px;
+        border: 1px solid #FFF;
+        column-gap: 20px;
+        transition: all 0.3s;
+    }
+    li > a:hover{
+        background-color: #2662C8;
+        transform: scale(1.04);
+    }
+    li > a > img{
+        width: 35px;
+        height: 35px;
+    }
+    li > a > p{
+        color: #FFF;
+        font-family: "Montserrat",sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+}
+
+.container-redes > picture > img{
+    border-radius: 30px;
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
     .container-banner > .textos{
         padding-left: 20px;
@@ -192,6 +274,22 @@
             font-size: 27px;
         }
     }
+
+    .container-redes{
+        width: 95%;
+    }
+
+    .container-redes > .parte-cima{
+        justify-content: center;
+    }
+
+    .container-redes > .parte-cima > img{
+        display: none;
+    }
+
+    .container-redes > nav > ul{
+        padding: 0;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
@@ -235,6 +333,25 @@
         .botao-servicos{
             font-size: 27px;
         }
+    }
+
+    .container-redes{
+        width: 95%;
+    }
+
+    .container-redes > .parte-cima{
+        justify-content: center;
+    }
+
+    .container-redes > .parte-cima > img{
+        display: none;
+    }
+
+    .container-redes > nav > ul{
+        padding: 0;
+        column-gap: 0;
+        flex-direction: column;
+        row-gap: 20px;
     }
 }
 
@@ -290,5 +407,35 @@
         .botao-servicos{
             font-size: 25px;
         }
+    }
+
+    .container-redes{
+        width: 95%;
+        border-radius: 25px;
+        padding-top: 20px;
+    }
+
+    .container-redes > .parte-cima{
+        justify-content: center;
+    }
+
+    .container-redes > h2{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .container-redes > .parte-cima > img{
+        display: none;
+    }
+
+    .container-redes > nav > ul{
+        padding: 0;
+        column-gap: 0;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .container-redes > picture > img{
+        display: none;
     }
 }
