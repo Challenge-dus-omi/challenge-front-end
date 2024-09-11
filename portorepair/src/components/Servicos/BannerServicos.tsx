@@ -2,7 +2,7 @@ import carroImage from '../../assets/carro-servicos.png';
 
 export default function BannerServicos() {
   return (
-    <div className="container-banner">
+    <div className="container-banner-servicos">
       <div className="banner">
         <div className="textos">
           <h1>Solucione o seu problema em um piscar de olhos!</h1>
