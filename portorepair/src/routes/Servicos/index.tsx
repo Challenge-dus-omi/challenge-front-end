@@ -1,4 +1,5 @@
 import BannerServicos from "../../components/Servicos/BannerServicos";
+import FAQ from "../../components/Servicos/FAQ";
 import LoginForm from "../../components/Servicos/LoginForm";
 
 export default function Servicos(){
@@ -6,6 +7,7 @@ export default function Servicos(){
         <main>
             <BannerServicos />
             <LoginForm />
+            <FAQ />
         </main>
     )
 }
