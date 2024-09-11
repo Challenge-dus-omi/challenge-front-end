@@ -1,0 +1,294 @@
+.container-banner{
+    background-color: #F7F7F7;
+    padding: 100px 0 100px 0;
+    width: 100% !important;
+    height: auto;
+    display: flex !important;
+    justify-content: center;
+    align-items: center; 
+    column-gap: 20px;
+}
+
+.container-banner > .textos{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.container-banner > .textos > h1{
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.container-banner > .textos > p{
+    color: #000;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+    text-align: left;
+    span{
+        color: #2662C8; 
+    }
+}
+
+.container-banner > picture > img{
+    width: 480px;
+    height: auto;
+}
+
+.container-servicos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F7F7F7;
+    row-gap: 110px;
+}
+
+.container-servicos > .card{
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+    width: 100%;
+
+    picture > img{
+        width: 450px;
+        height: auto;
+    }
+    .lado-direito{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 60%;
+    }
+    .lado-direito > h3{
+        color: #000;
+        text-align: center;
+        font-family: "Questrial", sans-serif;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .lado-direito > p{
+        color: #000;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .lado-direito > a{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .botao-servicos{
+        background-color: #2662C8;
+        color: #FFF;
+        text-align: center;
+        font-family: "Questrial", sans-serif;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 10px 20px 10px 20px;
+        border: none;
+        border-radius: 5px;
+        width: 100%;
+        margin: 0;
+        transition: all 0.4s;
+    }
+    .botao-servicos:hover{
+        transform: scale(1.03);
+        background-color: #fff;
+        border: 1px solid #2662C8;
+        box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.15);
+        color: #2662C8;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container-banner > .textos{
+        padding-left: 20px;
+    }
+
+    .container-banner > .textos > h1{
+        font-size: 40px;
+    }
+
+    .container-servicos{
+        width: 95%;
+    }
+    .container-servicos > .card{
+        column-gap: 10;
+
+        .lado-direito > h3{
+            font-size: 33px;
+        }
+        .lado-direito > p{
+            font-size: 22px;
+        }
+        .lado-direito > a{
+            width: 60%;
+        }
+        .botao-servicos{
+            font-size: 27px;
+        }
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .container-banner{
+        flex-direction: column-reverse;
+        column-gap: 0;
+        row-gap: 20px;
+        padding: 50px 0 50px 0;
+    }
+    .container-banner > .textos{
+        width: 80%;
+    }
+
+    .container-banner > .textos > h1{
+        font-size: 40px;
+    }
+
+    .container-servicos{
+        width: 95%;
+    }
+
+    .container-servicos > .card{
+        column-gap: 10;
+        flex-direction: column;
+        column-gap: 0;
+        align-items: center;
+        row-gap: 20px;
+
+        .lado-direito{
+            row-gap: 30px;
+        }
+        .lado-direito > h3{
+            font-size: 33px;
+        }
+        .lado-direito > p{
+            font-size: 22px;
+        }
+        .lado-direito > a{
+            width: 80%;
+        }
+        .botao-servicos{
+            font-size: 27px;
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .container-banner{
+        flex-direction: column-reverse;
+        column-gap: 0;
+        row-gap: 20px;
+        padding: 50px 0 50px 0;
+    }
+    .container-banner > .textos{
+        width: 80%;
+    }
+
+    .container-banner > .textos > h1{
+        font-size: 40px;
+    }
+
+    .container-servicos{
+        width: 95%;
+    }
+
+    .container-servicos > .card{
+        column-gap: 10;
+        flex-direction: column;
+        column-gap: 0;
+        align-items: center;
+        row-gap: 20px;
+
+        .lado-direito{
+            row-gap: 30px;
+        }
+        .lado-direito > h3{
+            font-size: 33px;
+        }
+        .lado-direito > p{
+            font-size: 22px;
+        }
+        .lado-direito > a{
+            width: 100%;
+        }
+        .botao-servicos{
+            font-size: 27px;
+        }
+    }
+}
+
+@media (max-width: 575px){
+
+    .container-banner{
+        flex-direction: column-reverse;
+        column-gap: 0;
+        row-gap: 20px;
+        padding: 50px 0 50px 0;
+    }
+
+    .container-banner > picture > img{
+        width: 95%;
+    }
+
+    .container-banner > .textos{
+        width: 80%;
+    }
+
+    .container-banner > .textos > h1{
+        font-size: 30px;
+    }
+
+    .container-servicos > .card > picture > img{
+        width: 95%;
+    }
+
+    .container-servicos{
+        width: 95%;
+    }
+
+    .container-servicos > .card{
+        column-gap: 10;
+        flex-direction: column;
+        column-gap: 0;
+        align-items: center;
+        row-gap: 20px;
+
+        .lado-direito{
+            row-gap: 30px;
+            width: 95%;
+        }
+        .lado-direito > h3{
+            font-size: 30px;
+        }
+        .lado-direito > p{
+            font-size: 20px;
+        }
+        .lado-direito > a{
+            width: 100%;
+        }
+        .botao-servicos{
+            font-size: 25px;
+        }
+    }
+}
