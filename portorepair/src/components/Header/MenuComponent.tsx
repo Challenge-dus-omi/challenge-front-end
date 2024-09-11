@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import menuHamburguerIcon from '../../assets/menu-hamburguer.png';
 import homeIcon from '../../assets/casa-icone.png';
+import { Link } from 'react-router-dom';
 
 export default function MenuComponent() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -20,24 +21,24 @@ export default function MenuComponent() {
       <nav className={`menu ${isMenuOpen ? 'visible' : 'hidden'}`}>
         <ul>
           <li className="inicial botoes-menu">
-            <a href="./index.html">
+            <Link to="/home">
               <img src={homeIcon} alt="Ícone de casa" />
-            </a>
+            </Link>
           </li>
           <li className="linha botoes-menu">
-            <a href="./paginas/servicos.html">
+            <Link to="servicos">
               <p>Serviços</p>
-            </a>
+            </Link>
           </li>
           <li className="linha botoes-menu">
-            <a href="./paginas/contato.html">
+            <Link to="/contato">
               <p>Contato</p>
-            </a>
+            </Link>
           </li>
           <li className="botoes-menu">
-            <a href="./paginas/sobre.html">
+            <Link to="/sobre">
               <p>Sobre</p>
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
