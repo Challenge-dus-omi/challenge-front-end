@@ -1,7 +1,9 @@
+import AboutSection from "../../components/Sobre/AboutSection";
+
 export default function Sobre(){
     return (
         <main>
-            <h1>Sobre</h1>
+            <AboutSection/>
         </main>
     )
 }
