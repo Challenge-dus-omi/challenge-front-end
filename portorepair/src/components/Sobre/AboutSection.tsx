@@ -7,7 +7,7 @@ import FotoCaua from '../../assets/foto-caua.png';
 export default function AboutSection() {
   return (
     <main>
-      <div className="container">
+      <div className="container-sobre">
         <ProfileCard
           imageSrc={FotoLima}
           altText="Foto de Gabriel Lima"

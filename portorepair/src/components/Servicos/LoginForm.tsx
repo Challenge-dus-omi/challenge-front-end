@@ -2,7 +2,7 @@ export default function FormLogin() {
     
   return (
     <div className="container-form-login" id="log">
-      <form action="/em-breve.html">
+      <form action="/home">
         <fieldset>
           <legend>Login</legend>
           <div>
@@ -25,7 +25,7 @@ export default function FormLogin() {
               required
               minLength={8}
               maxLength={20}
-              pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}"
+              pattern="(^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$}"
               title="A senha deve conter entre 8 e 20 caracteres, incluindo letras maiúsculas, minúsculas e números"
             />
           </div>
