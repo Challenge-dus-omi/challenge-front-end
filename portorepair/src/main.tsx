@@ -9,6 +9,7 @@ import './css/servicos.css';
 import './css/sobre.css';
 import './css/layout.css';
 import './css/requestImage.css';
+import './css/diagnosticflow.css';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
