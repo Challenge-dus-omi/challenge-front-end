@@ -8,6 +8,7 @@ import './css/index.css';
 import './css/servicos.css';
 import './css/sobre.css';
 import './css/layout.css';
+import './css/requestImage.css';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

@@ -1,10 +1,6 @@
 // src/CarImageSearch.tsx
 import React, { useState, FormEvent } from 'react';
 
-interface CarImageResponse {
-  string: string[];
-}
-
 const CarImageSearch: React.FC = () => {
   const [make, setMake] = useState<string>('');
   const [model, setModel] = useState<string>('');
@@ -61,9 +57,9 @@ const CarImageSearch: React.FC = () => {
   };
 
   return (
-    <div>
-      <h1>Buscar Imagem do Carro</h1>
+    <div className="container-form-login">
       <form onSubmit={handleSubmit}>
+      <legend className="tituloRequestImage">Informe os dados do seu veículo</legend>
         <div>
           <label htmlFor="make">Fabricante:</label>
           <input

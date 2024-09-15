@@ -9,7 +9,7 @@ export default function LoginButtonComponent() {
           <picture>
             <img src={portoLogo} alt="Logo Porto Seguro" />
           </picture>
-          <p>Sign in / Sign out</p>
+          <p>Fazer orçamento</p>
         </div>
       </Link>
     </div>
