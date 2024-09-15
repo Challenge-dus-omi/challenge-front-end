@@ -1,9 +1,5 @@
 import { useState, FormEvent } from 'react';
 
-interface CarImageResponse {
-  string: string[];
-}
-
 export default function ApiResquestImage() {
   const [make, setMake] = useState<string>('');
   const [model, setModel] = useState<string>('');
