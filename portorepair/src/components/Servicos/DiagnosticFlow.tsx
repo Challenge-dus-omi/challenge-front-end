@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import jsPDF from "jspdf";
+import portoRepairIA from '../../assets/logo-portorepairia-branco.png';
 
 interface DecisionNode {
   question?: string;
@@ -156,9 +157,14 @@ const DiagnosticFlow: React.FC = () => {
 
   return (
     <div className="container-question">
+
+      <img src={portoRepairIA} alt="Logo da porto repair ia" />
+
       {currentNode.question && !conclusion && (
         <>
-          <p>{currentNode.question}</p>
+          <div className="question">
+            <p>{currentNode.question}</p>
+          </div>
           <div className="button-container">
             <button onClick={() => handleAnswer("yes")} className="button-question">
               Sim
