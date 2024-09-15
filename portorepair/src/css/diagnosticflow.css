@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: space-around;
     width: 500px;
-    height: 150px;
+    height: 200px;
     background-color: #0046BF;
     border-radius: 10px;
 }
@@ -49,4 +49,26 @@
 
 .result-question{
     color: #8dff89 !important;
+}
+
+.button-download{
+    width: auto;
+    height: 30px;
+    background-color: #FFF;
+    border-radius: 10px;
+    border: none;
+    font-family: "montserrat";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.button-download:hover{
+    background-color: #0046BF;
+    color: #FFF;
+    border: solid #FFF;
+    transform: scale(1.05);
 }

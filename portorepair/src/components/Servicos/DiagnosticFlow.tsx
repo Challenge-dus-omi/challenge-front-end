@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import jsPDF from "jspdf";
 
 interface DecisionNode {
   question?: string;
@@ -83,36 +84,101 @@ const decisionTree: DecisionNode = {
   },
 };
 
+interface HistoryItem {
+  question: string;
+  answer: string;
+}
+
 const DiagnosticFlow: React.FC = () => {
   const [currentNode, setCurrentNode] = useState<DecisionNode>(decisionTree);
+  const [history, setHistory] = useState<HistoryItem[]>([]);
+  const [conclusion, setConclusion] = useState<string | null>(null);
 
   const handleAnswer = (answer: "yes" | "no") => {
+    if (!currentNode.question) return;
+
+    const question = currentNode.question;
+
+    setHistory((prevHistory) => [
+      ...prevHistory,
+      { question, answer: answer === "yes" ? "Sim" : "Não" },
+    ]);
+
     const nextNode = currentNode[answer];
     if (nextNode) {
+      if (nextNode.conclusion) {
+        setConclusion(nextNode.conclusion);
+      }
       setCurrentNode(nextNode);
     } else {
       alert("Fluxo inválido. Por favor, reinicie.");
-      setCurrentNode(decisionTree);
+      restartFlow();
     }
   };
 
   const restartFlow = () => {
     setCurrentNode(decisionTree);
+    setHistory([]);
+    setConclusion(null);
+  };
+
+  const generatePDF = () => {
+    const doc = new jsPDF();
+
+    doc.setFontSize(16);
+    doc.text("Diagnóstico do Veículo", 105, 20, { align: "center" });
+
+    // Histórico de Perguntas e Respostas
+    doc.setFontSize(12);
+    let yOffset = 30;
+
+    history.forEach((item, index) => {
+      doc.text(`${index + 1}. ${item.question}`, 10, yOffset);
+      yOffset += 7;
+      doc.text(`   Resposta: ${item.answer}`, 10, yOffset);
+      yOffset += 10;
+
+      if (yOffset > 270) {
+        doc.addPage();
+        yOffset = 20;
+      }
+    });
+
+    if (conclusion) {
+      doc.setFontSize(14);
+      doc.text("Resultado Final:", 10, yOffset);
+      yOffset += 7;
+      doc.setFontSize(12);
+      doc.text(conclusion, 10, yOffset);
+    }
+    doc.save("diagnostico.pdf");
   };
 
   return (
-    <div>
-      {currentNode.question && (
+    <div className="container-question">
+      {currentNode.question && !conclusion && (
         <>
           <p>{currentNode.question}</p>
-          <button onClick={() => handleAnswer("yes")}>Sim</button>
-          <button onClick={() => handleAnswer("no")}>Não</button>
+          <div className="button-container">
+            <button onClick={() => handleAnswer("yes")} className="button-question">
+              Sim
+            </button>
+            <button onClick={() => handleAnswer("no")} className="button-question">
+              Não
+            </button>
+          </div>
         </>
       )}
-      {currentNode.conclusion && (
+      {conclusion && (
         <>
-          <p><strong>{currentNode.conclusion}</strong></p>
-          <button onClick={restartFlow}>Reiniciar</button>
+          <p className="result-question">{conclusion}</p>
+          <button onClick={restartFlow} className="button-question">
+            Reiniciar
+          </button>
+
+          <button onClick={generatePDF} className="button-download">
+            Download do Diagnóstico
+          </button>
         </>
       )}
     </div>
