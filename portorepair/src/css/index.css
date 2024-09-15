@@ -16,6 +16,7 @@
     row-gap: 20px;
 }
 
+.errorh1,
 .container-banner > .textos > h1{
     color: #000;
     font-family: "Montserrat", sans-serif;
@@ -26,6 +27,7 @@
     margin: 0;
 }
 
+.errorp,
 .container-banner > .textos > p{
     color: #000;
     text-align: center;

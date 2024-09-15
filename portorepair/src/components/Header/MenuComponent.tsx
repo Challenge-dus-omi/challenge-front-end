@@ -21,7 +21,7 @@ export default function MenuComponent() {
       <nav className={`menu ${isMenuOpen ? 'visible' : 'hidden'}`}>
         <ul>
           <li className="inicial botoes-menu">
-            <Link to="/home">
+            <Link to="/">
               <img src={homeIcon} alt="Ícone de casa" />
             </Link>
           </li>
