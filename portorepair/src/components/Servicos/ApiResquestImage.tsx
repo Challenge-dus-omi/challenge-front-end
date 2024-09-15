@@ -58,10 +58,12 @@ const CarImageSearch: React.FC = () => {
 
   return (
     <div className="container-form-login">
-      <form onSubmit={handleSubmit}>
-      <legend className="tituloRequestImage">Informe os dados do seu veículo</legend>
-        <div>
-          <label htmlFor="make">Fabricante:</label>
+      <form onSubmit={handleSubmit} className='form-request-image'>
+
+      <legend className="titulo-request-image">Informe os dados do seu veículo</legend>
+
+        <div className='container-label'>
+          <label htmlFor="make" className='label-request-image'>Fabricante:</label>
           <input
             type="text"
             id="make"
@@ -69,10 +71,12 @@ const CarImageSearch: React.FC = () => {
             onChange={(e) => setMake(e.target.value)}
             placeholder="Ex: Toyota"
             required
+            className='input-request-image'
           />
         </div>
-        <div>
-          <label htmlFor="model">Modelo:</label>
+
+        <div className='container-label'>
+          <label htmlFor="model" className='label-request-image'>Modelo:</label>
           <input
             type="text"
             id="model"
@@ -80,10 +84,12 @@ const CarImageSearch: React.FC = () => {
             onChange={(e) => setModel(e.target.value)}
             placeholder="Ex: Corolla"
             required
+            className='input-request-image'
           />
         </div>
-        <div>
-          <label htmlFor="year">Ano:</label>
+
+        <div className='container-label' >
+          <label htmlFor="year" className='label-request-image'>Ano:</label>
           <input
             type="number"
             id="year"
@@ -91,9 +97,12 @@ const CarImageSearch: React.FC = () => {
             onChange={(e) => setYear(e.target.value === '' ? '' : Number(e.target.value))}
             placeholder="Ex: 2005"
             required
+            className='input-request-image'
           />
         </div>
-        <button type="submit">Buscar Imagem</button>
+
+        <button type="submit" className='submit-button-request-image'>Buscar</button>
+
       </form>
 
       {loading && <p>Carregando...</p>}
