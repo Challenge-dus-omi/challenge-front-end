@@ -1,7 +1,10 @@
-// src/CarImageSearch.tsx
-import React, { useState, FormEvent } from 'react';
+import { useState, FormEvent } from 'react';
 
-const CarImageSearch: React.FC = () => {
+interface CarImageResponse {
+  string: string[];
+}
+
+export default function ApiResquestImage() {
   const [make, setMake] = useState<string>('');
   const [model, setModel] = useState<string>('');
   const [year, setYear] = useState<number | ''>('');
@@ -108,12 +111,11 @@ const CarImageSearch: React.FC = () => {
       {loading && <p>Carregando...</p>}
       {error && <p style={{ color: 'red' }}>{error}</p>}
       {imageUrl && (
-        <div>
-          <img src={imageUrl} alt={`${make} ${model} ${year}`} />
+        <div className='container-image-request' >
+          <img src={imageUrl} alt={`${make} ${model} ${year}`} className='img-request' />
         </div>
       )}
+      
     </div>
   );
 };
-
-export default CarImageSearch;

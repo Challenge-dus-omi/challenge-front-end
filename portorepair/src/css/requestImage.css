@@ -2,6 +2,7 @@
     width: 506.25px;
     height: 345.06px;
     flex-shrink: 0;
+    margin-bottom: 290px;
 }
 
 .form-request-image{
@@ -75,4 +76,28 @@
     background-color: #0046BF;
     color: #FFF;
     transform: scale(1.05);
+}
+
+.container-image-request{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.img-request{
+    width: 400px;
+    max-height: 300px;
+    border-radius: 20px;
+}
+
+@media (max-width: 500px) {
+    .container-form-login{
+        width: 100%;
+    }
+
+    .img-request{
+        width: 100%;
+    }
+
 }
