@@ -162,9 +162,7 @@ const DiagnosticFlow: React.FC = () => {
 
       {currentNode.question && !conclusion && (
         <>
-          <div className="question">
-            <p>{currentNode.question}</p>
-          </div>
+          <p>{currentNode.question}</p>
           <div className="button-container">
             <button onClick={() => handleAnswer("yes")} className="button-question">
               Sim

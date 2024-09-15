@@ -20,7 +20,7 @@
     border-radius: 10px;
 }
 
-.question > p{
+.container-question p{
     font-family: "montserrat";
     font-size: 25px;
     font-style: normal;
@@ -28,6 +28,10 @@
     line-height: normal;
     text-align: center;
     color: #0046BF;
+    background-color: #FFF;
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .button-container{
@@ -58,10 +62,6 @@
     transform: scale(1.05);
 }
 
-.result-question{
-    color: #8dff89 !important;
-}
-
 .button-download{
     width: auto;
     height: 30px;
@@ -82,4 +82,10 @@
     color: #FFF;
     border: solid #FFF;
     transform: scale(1.05);
+}
+
+@media (max-width: 550px) {
+    .container-question{
+        width: 100%;
+    }
 }
